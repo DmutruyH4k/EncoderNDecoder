@@ -17,6 +17,6 @@ def decode(txt):
 
 
 if __name__ == '__main__':
-    text = input('Введите зашифрованный текст: ').lower
+    text = input('Введите зашифрованный текст: ').lower()
     text = decode(text)
     print('Расшифрованный текст: ', text)
